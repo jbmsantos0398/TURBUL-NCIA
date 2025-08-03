@@ -1,0 +1,15 @@
+<!----------------------------------------
+https://www.w3schools.com/css/css_background_attachment.asp
+https://www.w3schools.com/css/tryit.asp?filename=trycss_background-image_attachment
+
+<!---------------------------------------------------------------------------------->
+<html><head><style>
+body {
+  background-image: url("https://cdn-icons-png.flaticon.com/512/1642/1642807.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  margin-right: 200px;
+  background-attachment: fixed;
+}
+</style></head><body></body></html>
+<!---------------------------------------------------------------------------------->
