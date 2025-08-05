@@ -1,0 +1,198 @@
+<!DOCTYPE html><html><head>
+<meta name="viewport" content="width=device-width, initial-scale=1"><style>
+body {margin:0;}
+.navbar {
+  overflow: hidden;
+  background-color: BLUE;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.navbar a {
+  float: center;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+.main {
+  padding: 0px;
+  margin-top: 120px;
+  height: 10px; /* Used in this example to enable scrolling */
+}
+</style></head><body><div class="navbar">
+
+<b>
+  <a href="index.html">MENU PRINCIPAL</a>
+</b>
+
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Pesquisa nessa página..." title="Busca aqui">
+
+</div><div class="main">
+
+
+<!DOCTYPE html><html><head>
+<meta name="viewport" content="width=device-width, initial-scale=1"><style>
+* {
+  box-sizing: border-box;
+}
+#myInput {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 5px solid RED;
+  margin-bottom: 12px;
+}
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+#myUL li a {
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #ccc;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: blue;
+  display: block
+}
+#myUL li a:hover:not(.header) {
+  background-color: #eee;
+}
+</style></head><body>
+<!-----------------------RELOGIO NOVO RELÓGIO BOM-------SEM MARK----------------->
+<center><H1>BEM VINDOS</H1>Hoje é <u><html><head><title></title></head><body><SCRIPT LANGUAGE="JAVASCRIPT">
+<!--
+var now = new Date();
+var mName = now.getMonth() +1 ;
+var dName = now.getDay() +1;
+var dayNr = now.getDate();
+var yearNr=now.getYear();
+if(dName==1) {Day = "Domingo";}
+if(dName==2) {Day = "Segunda-feira";}
+if(dName==3) {Day = "Terça-feira";}
+if(dName==4) {Day = "Quarta-feira";}
+if(dName==5) {Day = "Quinta-feira";}
+if(dName==6) {Day = "Sexta-feira";}
+if(dName==7) {Day = "Sábado";}
+if(mName==1){Month = "Janeiro";}
+if(mName==2){Month = "Fevereiro";}
+if(mName==3){Month = "Março";}
+if(mName==4){Month = "Abril";}
+if(mName==5){Month = "Maio";}
+if(mName==6){Month = "Junho";}
+if(mName==7){Month = "Julho";}
+if(mName==8){Month = "Agosto";}
+if(mName==9){Month = "Setembro";}
+if(mName==10){Month = "Outubro";}
+if(mName==11){Month = "Novembro";}
+if(mName==12){Month = "Dezembro";}
+if(yearNr < 2000) {Year = 1900 + yearNr;}
+else {Year = yearNr;}
+var todaysDate =(" " + Day + ", " + dayNr + "/" + Month + "/" + Year);
+document.write('  '+todaysDate);
+//-->
+</SCRIPT><BR/>
+<SPAN ID="Clock">00:00:00</SPAN>
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+  var Elem = document.getElementById("Clock");
+  function Horario(){ 
+    var Hoje = new Date(); 
+    var Horas = Hoje.getHours(); 
+    if(Horas < 10){ 
+      Horas = "0"+Horas; 
+    } 
+    var Minutos = Hoje.getMinutes(); 
+    if(Minutos < 10){ 
+      Minutos = "0"+Minutos; 
+    } 
+    var Segundos = Hoje.getSeconds(); 
+    if(Segundos < 10){ 
+      Segundos = "0"+Segundos; 
+    } 
+    Elem.innerHTML = Horas+":"+Minutos+":"+Segundos; 
+    } 
+    window.setInterval("Horario()",1000);
+//-->
+</SCRIPT></body></html></u>
+<!----------------------------------------------------------->
+<!---------------------------------------------------------------------------------->
+<hr class="new1"></center>
+<!---------------------FAIXA AZUL-- _blank --- _self -----
+<a href="../../index.html" target="_self">
+<div height="100" style="background-color: blue;line-height: 100px;text-align: center;"><p style="color: white"><FONT SIZE=+4>INÍCIO</FONT></p></div></a><hr class="new1">
+<!---------------------------------------------------------------------------------->
+<ul id="myUL">
+<!---------------------------------------------------------------------------------->
+<!--##############################################################################-->
+<!--##############################################################################-->
+<!--####################################  INÍCIO  ################################-->
+<!--##############################################################################-->
+<!--##############################################################################-->
+<!---------------------------------------------------------------------------------->
+  <li><a href="index_arquivos/AMADO BATISTA/1 - Copia.html">AMADO BATISTA - Músicas</a></li>
+  <li><a href="#">Agnes</a></li>
+
+  <li><a href="#">Billy</a></li>
+  <li><a href="#">Bob</a></li>
+
+  <li><a href="#">Calvin</a></li>
+  <li><a href="#">Christina</a></li>
+  <li><a href="#">Cindy</a></li>
+
+
+<!-------------------------_blank --- _self----------------------------->
+<li><a href="index_arquivos/LINK🔴/1 - Copia.html" target="_blank">NOME🔴</a></li>
+<!---------------------------------------------------------------------------------->
+<li><a href="index_arquivos/LINK🔴/1 - Copia.html" target="_blank">NOME🔴</a></li>
+<!---------------------------------------------------------------------------------->
+
+
+
+
+
+
+<!---------------------------------------------------------------------------------->
+<!--##############################################################################-->
+<!--##############################################################################-->
+<!--####################################   FIM   ################################-->
+<!--##############################################################################-->
+<!--##############################################################################-->
+<!---------------------------------------------------------------------------------->
+</ul><script>
+function myFunction() {
+    var input, filter, ul, li, a, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+}
+</script></body></html>
+<!---------------------------------------------------------------------------------->
+<!--##############################################################################-->
+<!--##############################################################################-->
+<!--####################################   FIM   ################################-->
+<!--##############################################################################-->
+<!--##############################################################################-->
+<!---------------------------------------------------------------------------------->
